@@ -1,0 +1,113 @@
+Arvocap: Samir, Mola
+--------------------
+Trial period -  
+Zoho dESK + 3CX: users, departments(Samir)
+Yeastar admin
+Note: printer on the same setup, myqueue configs
+Space, RAM: 50GB, 4GB 
+2GB, 2CPU, 20
+Analytical database & visualization
+
+Zoho: local backup solution on Drive
+CC minimum disruption
+3cx to Yeastar bridge
+
+-------------------
+Linux: Debian, 4GB, 50GB, 2CPU, Windows Drive H:
+3CX + reports/recordings: 2GB, 2CPU, 20GB, Windows Drive H:
+:: hostname 3cxsrv
+root:: Administrative: Administrator Arvocap@2026 3cxsrv
+       NonAdminitrative: root/user Arvocap@2026 safsipsbc
+IPs: 192.168.100.40, 192.168.100.41, 197.248.26.209:
+
+FreeSwitch: DebLinux .41
+
+---------------------
+Zoho reports - local keeps: 
+Call recordings: 100 calls per day per agent(20), - cap call storage to 200GB
+Grafana dashboard - Logs(CDR,Calls,: Pro(x) - No Grafana. Alt. - 
+Zoho linking to socials, dispositioning, 
+Zoho operations: 
+3cx: send app download link and setup guide to Samir
+Text to voice audioclip: clip to Samir
+
+-------------------
+SRV
+192.168.100.8, 197.248.26.209
+admin
+Nairobi@1
+
+Yeastar - on physcal pbx>switch>server
+192.168.100.10:8088 
+admin
+Avocap@2025!
+
+AnyDesk
+1 652 782 943
+avoAdmin@2026
+
+------------------
+✔️Koli Query - customer happiness rating(directed to customers after ticket closure), Truecaller(client risk - btw)**, 
+Simar/Catherine - contact resolving, customer search in customer list - delays / UX
+✔️update - departments(tech, operations, cs)
+✔️contact card type - prospect, paid user_ren_existing client
+🌟mandatory fields per view (contacts, tickets, calls, event, other) - later*
+✔️ticketing - dropdown(predefined dispositioning text) / tagging - comparative / autofill(description - tagging?)
+✔️products - Simar(product, product code)
+✔️client reach tickets - add walk-in, WhatsApp, Admin chat, 
+✔️rename: inquiry, complaint, feedback, follow-up
+🌟clients@arvocap.com as from in emails (SMTP details) - Channels > FROM Email Address
+       🌟📨 :: alt - forwarding & domain mapping(CNAME / support@arvocap.zohodesk.com) - email
+✔️emails - add signature (Simar - image template: clientservices) - placeholder 
+       🌟📨 :: add for other departments (Simar/Catherine) - email
+✔️Set time to EAT
+✔️SLAs implementation - ZohoDesk
+⬆️James: WhatsApp integration - zohodesk, 3CX
+⬆️James: FB/IG/X/Google+/GmailChats socials integration - zohodesk, 3CX
+⬆️James: Admin chats integration - zohodesk, 3CX: data, link doc
+⬆️James: onboarding doc signoff
+🌟3CX callback from ZohoDesk : if i click callback open zohodesk callback interface & 3cx clicktocall
+✔️Add reports to main menu - Confirm Analytics : Reports, Add General Reports (Export)
+✔️Backups zohodesk: scheduled - weekly Fri (last Sat 3:19 AM)
+🌟Catherine/Simar - Existing client list batch importation to zohodesk 
+       🌟📨 :: template attach to email (Simar/Catherine) - email
+       🌟📨🧪 :: try sample customer upload
+🌟✔️Notification workflow (: ticket creation # > ticket assignment > process flow > client ticket response + resolution)
+       🌟📨 :: Update FROM fields in each notification (Email Template) ... ❌CURRENT: FROM support@arvocap.zohodesk.com
+       🌟📨🧪 :: Confirm signature is auto-added in each email notification sent to contact - Email..
+🌟Mola/Simar:3CX ftp to server: local storage setup
+⬆️Mola/Simar: fw monitoring - arvocap.3cx.sc monitoring (Mola requested)
+       🌟📨 :: feedback for suggestions (Mola/Simar) - email
+🌟⌚Ticket subject: autofill (ticket #, item subcategory)
+🌟Ticket description: autosuggest (suggestion tags/typing)
+🌟❓: Difference between ticket owner and agent - REF: Setup/Admin Email Template Placeholders
+🌟: Block non-senior roles from viewing/accessing settings, 3CX, IM, Chat
+🤔Grant clients access to customer portal 
+       🌟❓ :: try the customer portal & view what's available, what's the business cost, what's the UX like? (customer, Arvocap CS agent)
+Git-aluoch: arvocap setups & configs
+
+⬆️James: etims for 3cx - Simar_Monday
+zohodesk finalization
+operations team training - IT, Finance, Risk & Compliance, Operations*
+
+Progressive Updates: Expectations by date, CS Department Experience - email
+✔️Company Logo - PDF, PSD
+
+-------------
+More Ideas - By Aluoch
+
+Zoho AI to read new email to ticket and suggest creating a subticket or new ticket then mail merge
+  #promp t{{ zohodesk - how do i create a condition whereby if a ticket is closed and a new email is raised within the same from the client(email to zohodesk ticket),  
+             it checks if the previous ticket was closed at least 3 days prior and  creates a new ticket or suggests a ticket merge/child ticket }}
+
+condition - closed tickets with a new email to the thread, creates new ticket/subticket
+child tickets
+Trigger Zoho Desk ticket popups when a call is received.
+Log call details automatically into Zoho Desk.
+Notify when about to reply/comment/editing on closed ticket.
+Limit ticket editing to role unless reassigned
+
+
+------------
+
+

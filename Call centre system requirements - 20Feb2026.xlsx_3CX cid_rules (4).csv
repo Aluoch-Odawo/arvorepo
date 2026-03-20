@@ -1,0 +1,6 @@
+NAME,CALLER_ID,TRUNK_NUMBER,DESTINATION_TYPE,DESTINATION_NUMBER
+Inbound CID Rule 1,07********,10000,5,801
+Inbound CID Rule 2,02547********,10000,5,801
+Inbound CID Rule 3,+2547********,10000,5,801
+Inbound CID Rule 4,+02547********,10000,5,801
+Inbound CID Rule 5,7********,10000,5,801

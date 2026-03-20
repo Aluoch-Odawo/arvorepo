@@ -1,0 +1,14 @@
+Arvocap Issues
+--------------
+inbound call report blank - missing reports ✔️
+reports : my reports -> Simar/James list requirements
+inbound calls dropping -> 1.Cathy list of dropped callers review : 2.review server net stats
+maximum queue wait time -> 60s ✔️
+Wrap up time (agent chill b4 next call) -> 60s ✔️
+SLAs Ring time -> queue 45s ✔️
+local storage - FTP/SMB research / permission
+callback (client callback after time seconds -> press 2 ✔️
+call recording (auto-opt in) -> press 2 ✔️ 
+multiple Digital receptionist - IVR options -> 
+
+https://desk.zoho.com/
