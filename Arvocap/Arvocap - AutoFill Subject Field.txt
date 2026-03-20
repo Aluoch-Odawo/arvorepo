@@ -1,0 +1,24 @@
+Arvocap - AutoFill Subject Field
+---------------------------
+  prompt {{custom function needs: methodname, argument and what fiekd it matches in the form.}}
+
+
+ custom function / WorkFlow Ticket Creation - Subject Field AutoFill  : https://desk.zoho.com/agent/arvocap/arvocap/setup#setup/automation/1269980000000006907/workflows/rules/new
+
+// Arguments
+ticketId = input.ticketId;
+
+// Fetch ticket details
+ticketDetails = zoho.desk.getRecordById("Tickets", ticketId);
+
+category = ticketDetails.get("Category");
+subcategory = ticketDetails.get("Subcategory");
+
+// Build subject line
+subjectLine = category + " - " + subcategory;
+
+// Update ticket subject
+updateMap = map();
+updateMap.put("Subject", subjectLine);
+
+zoho.desk.updateRecord("Tickets", ticketId, updateMap);

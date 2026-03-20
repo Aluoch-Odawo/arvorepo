@@ -1,0 +1,107 @@
+Arvocap Ticket Notification Threading - Clients Experience
+-----------------------------------------------------------
+
+1. Tickets: Acknowledge contact on receiving a new ticket: 
+
+:: Contact Notification
+
+Subject: (same subject should keep the thread)
+Ticket [#${Cases.Request Id}#] - Arvocap Asset Managers Support
+
+Body: 
+Dear ${Cases.Contact Name},
+Thank you for contacting us. Your request has been logged under:Thank you for contacting us. Your request has been logged under
+Ticket ID: ${Cases.Request Id}
+Item category: ${Cases.Category Item}
+Subject: "${Cases.Subject}" 
+
+Our support team is reviewing your request and will respond as soon as possible. 
+​
+Regards,
+${Organization.Organization Name} Support Team.
+
+//SKIPPED ${Cases.CUSTOMER_PORTAL_BUTTON}
+
+//? SIGNATURE IMAGE
+
+----
+2.Tickets: Acknowledge contact on receiving a reply: 
+
+:: Contact Notification
+
+Subject: (same subject should keep the thread)
+Ticket [#${Cases.Request Id}#] - Arvocap Asset Managers Support
+
+Body:
+
+
+----
+3.Tickets: Notify contact on ticket closure
+
+:: Contact Notification
+
+Subject: (same subject should keep the thread)
+Ticket [#${Cases.Request Id}#] - Arvocap Asset Managers Support
+
+Body:
+Dear ${Cases.Contact Name},
+
+Your ticket "${Cases.Request Id} ${Cases.Subject}" has been ${Cases.Status}.
+
+We hope that we've helped you to the best of your satisfaction. To re-open this ticket simply reply to this email within the next 24 hours.
+
+Regards,
+${Organization.Organization Name} Support Team.
+
+${Cases.Customer Happiness Rating}
+
+
+----
+Notifications List
+
+Notication Category	Notification Type	Status
+Contact Notifications	Receiving a new ticket	Yes
+ 	Acknowledging a ticket reply	Yes
+ 	Closing a ticket	Yes
+ 	Adding a public comment	 
+ 	Editing a public comment	 
+ 	Deleting a public comment	 
+ 	CC'd users on receiving a ticket	Yes
+ 	 	 
+Agent Notifications	Assigning a ticket	Yes
+ 	Receiving a ticket reply	Yes
+ 	Receiving ticket for review	Yes
+ 	Adding a comment	 
+ 	Editing a comment	 
+ 	Deleting a comment	 
+ 	Mentioning in a ticket	Yes
+ 	Assigning a call	Yes
+ 	Completing a call	 
+ 	Mentioning in a call	 
+ 	Assigning a task	Yes
+ 	Completing a task	 
+ 	Mentioning in a task	Yes
+ 	Assigning an event	Yes
+ 	Completing an event	 
+ 	Mentioning in an event	Yes
+ 	Assigning a blueprint transition	 
+ 	 	 
+Department Notifications	Receiving a moved ticket	 
+ 	Creating a new ticket	 
+ 	Receiving a shared ticket	 
+ 	 	 
+Team Notifications	Assigning a ticket	Yes
+ 	Receiving a ticket reply	Yes
+ 	Adding a comment	 
+ 	Editing a comment	 
+ 	Deleting a comment	 
+ 	Mentioning in a ticket	Yes
+ 	Assigning a call	Yes
+ 	Completing a call	 
+ 	Mentioning in a call	Yes
+ 	Assigning a task	Yes
+ 	Completing a task	 
+ 	Mentioning in a task	Yes
+ 	Assigning an event	Yes
+ 	Completing an event	 
+ 	Mentioning in an event	Yes
